@@ -1,1 +1,2 @@
-include ':app', ':renderthread'
+include ':app', ':renderthread', ':checksum'
+project (':checksum').projectDir = new File('support/checksum')

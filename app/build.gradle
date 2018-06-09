@@ -130,6 +130,7 @@ project.afterEvaluate {
 
 dependencies {
     implementation project(':renderthread')
+    implementation project(':checksum')
 
     implementation libraries.app.algolia
     implementation libraries.app.androidKtx
