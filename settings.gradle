@@ -1,2 +1,3 @@
-include ':app', ':renderthread', ':checksum'
+include ':app', ':renderthread', ':checksum', ':option'
 project (':checksum').projectDir = new File('support/checksum')
+project (':option').projectDir = new File('support/option')
